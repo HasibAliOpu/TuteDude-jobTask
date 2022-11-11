@@ -2,7 +2,7 @@ import React from "react";
 
 const Breadcrumbs = () => {
   return (
-    <div className="text-sm breadcrumbs">
+    <div className="breadcrumbs font-semibold tracking-tighter my-8 pl-10 ">
       <ul>
         <li>
           <a>UI/UX</a>
