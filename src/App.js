@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
 import CodeAndBalance from "./Components/CodeAndBalance/CodeAndBalance";
+import WorkDetails from "./Components/WorkDetails/WorkDetails";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Breadcrumbs />
       <CodeAndBalance />
+      <WorkDetails />
     </div>
   );
 }
