@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins, sans-serif"],
+      },
+    },
   },
   daisyui: {
     themes: [
@@ -13,7 +17,7 @@ module.exports = {
 
           accent: "#6e72d1",
 
-          neutral: "#242438",
+          neutral: "#800080",
 
           "base-100": "#FFFFFF",
 

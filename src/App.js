@@ -1,13 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
+import CodeAndBalance from "./Components/CodeAndBalance/CodeAndBalance";
 
 function App() {
   return (
-    <div className="App">
+    <div className="font-poppins">
       <Navbar />
       <Breadcrumbs />
+      <CodeAndBalance />
     </div>
   );
 }
