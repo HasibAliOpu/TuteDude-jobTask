@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import ReferAndEarn from "./Components/Pages/ReferAndEarn";
 import FriendsReferred from "./Components/Pages/FriendsReferred";
 import UIAndUX from "./Components/Pages/UIAndUX";
+import NotFound from "./Components/Pages/NotFound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<UIAndUX />} />
         <Route path="/referAndEarn" element={<ReferAndEarn />} />
         <Route path="/friendsReferred" element={<FriendsReferred />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
