@@ -6,15 +6,15 @@ const CodeAndBalance = () => {
       <div className="card bg-base-100 shadow-xl mx-auto">
         <div className="card-body">
           <div className="flex gap-16">
-            <div className="">
+            <div>
               <p className="text-neutral text-sm">Referral Earning</p>
               <h3 className="text-3xl pt-3 font-semibold">₹ 2,500</h3>
             </div>
-            <div className="">
+            <div>
               <p className="text-neutral text-sm">Total Referrals</p>
               <h3 className="text-3xl pt-3 font-semibold">7</h3>
             </div>
-            <div className="">
+            <div>
               <p className="text-neutral text-sm">Wallet Balance</p>
               <h3 className="text-3xl pt-3 font-semibold">₹ 500</h3>
             </div>

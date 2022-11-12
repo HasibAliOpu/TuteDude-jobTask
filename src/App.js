@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
 import { Route, Routes } from "react-router-dom";
 import ReferAndEarn from "./Components/Pages/ReferAndEarn";
-import FriendsReferred from "./Components/Pages/FriendsReferred/FriendsReferred";
+import FriendsReferred from "./Components/Pages/FriendsReferred";
 
 function App() {
   return (

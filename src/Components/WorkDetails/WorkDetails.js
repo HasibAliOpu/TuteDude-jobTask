@@ -16,7 +16,7 @@ const WorkDetails = () => {
           <div className="bg-rose-50 px-4 py-6  rounded-full">
             <img src={users} alt="users-icon" />
           </div>
-          <div className="">
+          <div>
             <h2 className="font-semibold">Invite your Friends</h2>
             <h5 className="text-sm subpixel-antialiased  text-gray-500">
               Share the link tutedude.com with <br /> your friends
@@ -27,7 +27,7 @@ const WorkDetails = () => {
           <div className="bg-rose-50 p-5  rounded-full">
             <img src={tag} alt="tag-icon" />
           </div>
-          <div className="">
+          <div>
             <h2 className="font-semibold">Friend purchases any course</h2>
             <h5 className="text-sm subpixel-antialiased  text-gray-500">
               Using your ERFERRAL CODE in the <br /> payments page
@@ -38,7 +38,7 @@ const WorkDetails = () => {
           <div className="bg-rose-50 p-5 rounded-full">
             <img src={rupee} alt="rupee-icon" />
           </div>
-          <div className="">
+          <div>
             <h2 className="font-semibold">You get ₹ 200 as referral money</h2>
             <h5 className="text-sm subpixel-antialiased  text-gray-500">
               On total purchase teh friend <br /> makes, into your wallet
