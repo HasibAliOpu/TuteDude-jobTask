@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom";
 
 const Breadcrumbs = () => {
   return (
-    <div className="breadcrumbs font-semibold tracking-tighter my-8 pl-10 ">
+    <div className="breadcrumbs text-xs md:text-base font-semibold tracking-tighter my-8 pl-10 ">
       <ul>
         <li>
-          <a>UI/UX</a>
+          <NavLink to={"/"}>UI&UX</NavLink>
         </li>
         <li>
-          <NavLink to={"/"}>Refer & Earn</NavLink>
+          <NavLink to={"/referAndEarn"}>Refer & Earn</NavLink>
         </li>
         <li>
           <NavLink to={"/friendsReferred"}>Friends Referred</NavLink>

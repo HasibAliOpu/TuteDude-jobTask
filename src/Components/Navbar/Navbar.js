@@ -4,7 +4,7 @@ import user from "../../assets/user.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar sticky top-0 z-50 bg-white shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -51,19 +51,19 @@ const Navbar = () => {
                   <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                 </svg>
               </a>
-              <ul className="p-2">
+              <ul className="p-2 bg-purple-300 font-semibold">
                 <li>
-                  <a>Submenu 1</a>
+                  <a href="/">My Profile</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a href="/">Logout</a>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
-        <a href="/" className="btn btn-ghost normal-case text-xl">
-          <img src={logo} alt="company-logo" />
+        <a href="/" className="pl-20 md:pl-0 btn btn-ghost normal-case text-xl">
+          <img src={logo} alt="company-logo" className="w-3/5 md:w-full" />
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
@@ -100,12 +100,12 @@ const Navbar = () => {
                 </svg>
               </svg>
             </a>
-            <ul className="p-2">
+            <ul className="p-2 bg-purple-300 font-semibold">
               <li>
-                <a>Submenu 1</a>
+                <a href="/">My Profile</a>
               </li>
               <li>
-                <a>Submenu 2</a>
+                <a href="/">Logout</a>
               </li>
             </ul>
           </li>

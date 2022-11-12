@@ -4,14 +4,15 @@ import tag from "../../assets/tag.png";
 import rupee from "../../assets/rupee.png";
 import discount from "../../assets/discount.png";
 import wallet from "../../assets/wallet.png";
+import { NavLink } from "react-router-dom";
 
 const WorkDetails = () => {
   return (
-    <div className="my-10 ml-40">
-      <h1 className="text-3xl text-neutral py-10 font-semibold">
+    <div className="md:my-10 mb-10 md:ml-40 ml-6">
+      <h1 className="text-2xl md:text-3xl text-neutral py-10 font-semibold">
         How does it work?
       </h1>
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex items-center gap-5">
           <div className="bg-rose-50 px-4 py-6  rounded-full">
             <img src={users} alt="users-icon" />
@@ -71,9 +72,9 @@ const WorkDetails = () => {
         </div>
       </div>
       <p className="text-neutral text-lg font-semibold py-10">
-        <a href="/" className="hover:underline">
+        <NavLink to="/friendsReferred" className="hover:underline">
           Friends Who Enrolled
-        </a>
+        </NavLink>
       </p>
       <p className="text-neutral text-lg font-semibold ">
         <a href="/" className="hover:underline">
