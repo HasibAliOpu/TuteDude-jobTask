@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Breadcrumbs = () => {
   return (
@@ -8,9 +9,11 @@ const Breadcrumbs = () => {
           <a>UI/UX</a>
         </li>
         <li>
-          <a>Refer & Earn</a>
+          <NavLink to={"/"}>Refer & Earn</NavLink>
         </li>
-        <li>Friends Referred</li>
+        <li>
+          <NavLink to={"/friendsReferred"}>Friends Referred</NavLink>
+        </li>
       </ul>
     </div>
   );

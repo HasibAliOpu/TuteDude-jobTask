@@ -1,16 +1,19 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Breadcrumbs from "./Components/Breadcrumbs/Breadcrumbs";
-import CodeAndBalance from "./Components/CodeAndBalance/CodeAndBalance";
-import WorkDetails from "./Components/WorkDetails/WorkDetails";
+import { Route, Routes } from "react-router-dom";
+import ReferAndEarn from "./Components/Pages/ReferAndEarn";
+import FriendsReferred from "./Components/Pages/FriendsReferred/FriendsReferred";
 
 function App() {
   return (
     <div className="font-poppins">
       <Navbar />
       <Breadcrumbs />
-      <CodeAndBalance />
-      <WorkDetails />
+      <Routes>
+        <Route path="/" element={<ReferAndEarn />} />
+        <Route path="/friendsReferred" element={<FriendsReferred />} />
+      </Routes>
     </div>
   );
 }

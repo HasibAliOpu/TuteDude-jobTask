@@ -2,7 +2,7 @@ import React from "react";
 
 const CodeAndBalance = () => {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-1 md:grid-cols-2">
       <div className="card bg-base-100 shadow-xl mx-auto">
         <div className="card-body">
           <div className="flex gap-16">
@@ -26,7 +26,7 @@ const CodeAndBalance = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div>
         <h1 className="text-2xl font-semibold text-neutral">
           Your Referral Code
         </h1>
